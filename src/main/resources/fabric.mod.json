@@ -1,0 +1,27 @@
+{
+	"schemaVersion": 1,
+	"id": "water-in-the-nether",
+	"version": "${version}",
+	"name": "Water In The Nether",
+	"description": "Allows you to place water in the nether.",
+	"authors": [
+		"Nooby Booby"
+	],
+	"license": "ARR",
+	"icon": "assets/water-in-the-nether/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"fuck.actual.the.what.WaterInTheNether"
+		]
+	},
+	"mixins": [
+		"water-in-the-nether.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.0",
+		"minecraft": ">=1.21",
+		"java": ">=21",
+		"fabric-api": ">=0.100.7+1.21"
+	}
+}
